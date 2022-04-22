@@ -1,0 +1,27 @@
+--------- // -----------------
+config inicial
+git config --global user.email
+git config --global user.name
+--------- //---------------
+
+colar - SHIFT + INS
+
+--------- // ------------------
+
+ls // lista os arquivos presente no repositório
+git init //inicia o repositorio
+git add  //adiciona arquivo/diretório (staged)
+	git add* //adiciona todos os arquivos alterados (staged)
+git commit -m "commit inicial"
+git status
+git rm arquivo.txt // remove arquivo
+git rm -r diretorio //remove diretorio
+git mv arquivo.txt // move o arquivo
+
+echo > Readme.md  //cria outro arquivo, "readme.md"
+
+git push -u origin master
+	git push // enviar alteracoes
+	git remote -v
+git pull //recebe informações
+ 
