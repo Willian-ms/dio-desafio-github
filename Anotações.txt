@@ -20,6 +20,8 @@ git mv arquivo.txt // move o arquivo
 
 echo > Readme.md  //cria outro arquivo, "readme.md"
 
+git remote set-url origin //
+
 git push -u origin master
 	git push // enviar alteracoes
 	git remote -v
